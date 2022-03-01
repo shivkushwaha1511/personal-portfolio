@@ -102,8 +102,8 @@ const MySkillsPage = () => {
       <LogoComponent theme="light" />
       <SocialIcons theme="light" />
       <PowerButton />
-      <ParticleComponent theme="light" />
       <Box>
+        <ParticleComponent theme="light" />
         <Main>
           <Title>
             <Web width={40} height={40} /> Programmer
