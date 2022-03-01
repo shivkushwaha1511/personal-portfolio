@@ -179,9 +179,7 @@ const Main = () => {
   const handleClick = () => setClick(!click);
 
   const handleResume = () => {
-    window.open(
-      "https://drive.google.com/file/d/1RExSWMdpb85PPlsmIsI8c0g8OpcaE3qp/view?usp=sharing"
-    );
+    window.open(process.env.REACT_APP_RESUME);
   };
 
   return (
