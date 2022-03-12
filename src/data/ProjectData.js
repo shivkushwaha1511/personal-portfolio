@@ -19,6 +19,15 @@ export const Projects = [
   },
   {
     id: 3,
+    name: "Facebook Clone",
+    tags: ["MERN"],
+    imgSrc:
+      "https://res.cloudinary.com/shivtest/image/upload/v1647107051/fHome_amcmko.jpg",
+    link: "https://quikiefacebook.herokuapp.com/",
+    github: "https://github.com/shivkushwaha1511/facebook",
+  },
+  {
+    id: 4,
     name: "Renthut",
     tags: ["JAVA", "JSP", "Servlet", "MySql"],
     date: "6 July, 2021",
